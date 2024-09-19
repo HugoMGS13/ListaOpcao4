@@ -3,7 +3,7 @@ package Gerenciador;
 //Discentes: Hugo Martins Gaspar da Silva e Polyana dos Santos Moraes
 //Matrículas: 202311140020 e 202311140012
 
-import java.util.Scanner;
+import java.util.Scanner; //Biblioteca para entrada de dados em Java (O java não tem um padrão igual o C++)
 
 public class Cli {
     /**
