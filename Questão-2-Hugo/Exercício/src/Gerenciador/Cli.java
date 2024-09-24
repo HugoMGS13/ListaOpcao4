@@ -16,7 +16,7 @@ public class Cli {
         GerenciadorDeTarefas gerenciador = new GerenciadorDeTarefas(1);
 
         while (true){
-            System.out.println("Qual operação você deseja realizar? \n1 - Enfileirar novos elementos\n2 - Executar processos com maior tempo de espera\n3 - Imprimir a fila\n4 - Encerrar programa");
+            System.out.println("======================================================================\nQual operação você deseja realizar? \n1 - Enfileirar novos elementos\n2 - Executar processos com maior tempo de espera\n3 - Imprimir a fila\n4 - Encerrar programa\n======================================================================");
 
             int escolha  = scan.nextInt();
 
@@ -31,7 +31,7 @@ public class Cli {
                 double wait = scan.nextDouble();
 
                 Processo processo = new Processo(id, nome , prio, wait);
-                    
+
                 gerenciador.enfileirar(processo);
 
             }
@@ -46,5 +46,5 @@ public class Cli {
             }
         }
     }
-    
+
 }
